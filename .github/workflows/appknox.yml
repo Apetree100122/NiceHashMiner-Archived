@@ -13,6 +13,7 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
       - name: Build the app
-        run: ./gradlew build      # Update this to build your Android or iOS application
+        run: ./gradlew build    
+        # Update this to build your Android or iOS application 
       - name: Appknox GitHub action
         uses: appknox/appknox-github-action@b7d2bfb2321d5544e97bffcba48557234ab953a4
